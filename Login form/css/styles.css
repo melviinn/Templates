@@ -148,7 +148,7 @@ body {
     color: #038cb2;
 }
 
-i {
+.login-card__form__password i {
     position: absolute;
     left: 368px;
     top: 300px;
