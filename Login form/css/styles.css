@@ -17,7 +17,7 @@ body {
 
 .login-card {
     position: relative;
-    height: 550px;
+    height: 580px;
     width: 450px;
     padding: 40px 50px;
     background-color: #FFFFFF;
@@ -115,7 +115,7 @@ body {
     width: 100%;
     height: 50px;
     background-color: #FFFFFF;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border: 1px solid rgb(208, 208, 208);
     border-radius: 20px;
     font-size: 14px;
