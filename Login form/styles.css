@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #0f2f5e, #005281, #007594, #009895, #32b888);
+    font-family: 'Colfax', sans-serif;
+}
+
+.login-card {
+    position: relative;
+    height: 550px;
+    width: 450px;
+    padding: 40px 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    z-index: 1000;
+}
+
+.login-card__header {
+    text-align: center;
+}
+
+.login-card__header h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.login-card__desc {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.login-card__desc p {
+    color: rgb(66, 65, 65);
+    font-size: 15px;
+}
+
+.login-card__form__email,
+.login-card__form__password,
+.login-card__form__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-email,
+.input-password {
+    display: block;
+    width: 100%;
+    border: 0;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #E9EFF6;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.input-email:hover,
+.input-password:hover {
+    box-shadow: 0 0 10px 5px #dddcdc;
+    background-color: #f6f9fb;
+    transition-duration: 300ms;
+}
+
+.input-email:focus-visible,
+.input-password:focus-visible {
+    outline: 0px;
+    font-size: 14px;
+}
+
+.input-password i {
+    position: absolute;
+    right: 63px;
+    top: 278px;
+    cursor: pointer;
+}
+
+.login-card__form__button {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #038cb2;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.submit-btn:hover,
+.google-submit-btn:hover {
+    transform: scale(1.04);
+    transition-duration: 300ms;
+}
+
+.google-submit-btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.google-submit-btn .google-logo {
+    margin-right: 10px;
+}
+
+.login-card__form__forgot-btn {
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    color: #888888;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.login-card__form__no-account {
+    color: #888888;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.signup-link {
+    text-decoration: none;
+    color: #038cb2;
+}
+
+i {
+    position: absolute;
+    left: 368px;
+    top: 300px;
+}

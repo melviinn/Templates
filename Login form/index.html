@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-card">
+        <div class="login-card__header">
+            <h1>Sign in</h1>
+        </div>
+        <div class="login-card__desc">
+            <p>
+                Please enter your email and password to log in or sign in with Google
+            </p>
+        </div>
+        <form class="login-card__form">
+            <div class="login-card__form__email">
+                <input type="text" class="input-email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter email..." required>
+            </div>
+            <div class="login-card__form__password">
+                <input type="password" class="input-password" name="password" id="password" minLength="6" placeholder="********" required>
+                <i class="fa-regular fa-eye-slash" id="togglePassword"></i>
+            </div>
+            <a href="#" class="login-card__form__forgot-btn">Forgot your password?</a>
+            <div class="login-card__form__button">
+                <button type="submit" class="submit-btn">Sign in</button>
+            </div>
+            <div class="login-card__form__google-btn">
+                <button type="button" class="google-submit-btn"><img src="img/google-logo.png" class="google-logo" width="25px" alt="google-logo"> Sign in with Google</button>
+            </div>
+            <span class="login-card__form__no-account">Not a member ? <a href="#" class="signup-link">Signup now</a></span>
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8662a536ba.js" crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
