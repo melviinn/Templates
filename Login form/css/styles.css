@@ -56,8 +56,8 @@ body {
     margin-bottom: 20px;
 }
 
-.input-email,
-.input-password {
+.login-card__form__email__input-email,
+.login-card__form__password__input-password {
     display: block;
     width: 100%;
     border: 0;
@@ -68,31 +68,31 @@ body {
     font-size: 15px;
 }
 
-.input-email:hover,
-.input-password:hover {
+.login-card__form__email__input-email:hover,
+.login-card__form__password__input-password:hover {
     box-shadow: 0 0 10px 5px #dddcdc;
     background-color: #f6f9fb;
     transition-duration: 300ms;
 }
 
-.input-email:focus-visible,
-.input-password:focus-visible {
+.login-card__form__email__input-email:focus-visible,
+.login-card__form__password__input-password:focus-visible {
     outline: 0px;
     font-size: 14px;
 }
 
-.input-password i {
+.login-card__form__password__input-password i {
     position: absolute;
     right: 63px;
     top: 278px;
     cursor: pointer;
 }
 
-.login-card__form__button {
+.login-card__form__btn {
     margin-bottom: 10px;
 }
 
-.submit-btn {
+.login-card__form__btn__submit-btn {
     display: block;
     width: 100%;
     height: 50px;
@@ -104,13 +104,13 @@ body {
     font-weight: bold;
 }
 
-.submit-btn:hover,
-.google-submit-btn:hover {
+.login-card__form__btn__submit-btn:hover,
+.login-card__form__google-btn__google-submit-btn:hover {
     transform: scale(1.04);
     transition-duration: 300ms;
 }
 
-.google-submit-btn {
+.login-card__form__google-btn__google-submit-btn {
     display: block;
     width: 100%;
     height: 50px;
@@ -122,7 +122,7 @@ body {
     font-weight: bold;
 }
 
-.google-submit-btn .google-logo {
+.login-card__form__google-btn__google-submit-btn .google-logo {
     margin-right: 10px;
 }
 
