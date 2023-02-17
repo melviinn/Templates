@@ -9,10 +9,14 @@ body {
 }
 
 .loader {
+  position: absolute;
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  background-color: rgb(22, 22, 22);
+  overflow: hidden;
 }
 
 .box {
@@ -51,4 +55,9 @@ body {
   50% {
     transform: translateY(-60px);
   }
+}
+
+.test {
+  opacity: 0;
+  transition: opacity .4s ease-out;
 }
